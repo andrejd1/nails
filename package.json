@@ -1,0 +1,22 @@
+{
+  "name": "nails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-server-livereload": "^1.9.2",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "node-notifier": "^6.0.0"
+  }
+}
