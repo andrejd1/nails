@@ -8354,6 +8354,38 @@ h1, h2, h3, h4, h5,
   }
 }
 
+@media (max-width: 576px) {
+  .contact-wrap {
+    text-align: center;
+  }
+}
+
+.contact-title {
+  font-size: 24px;
+  font-family: 'Berkshire Swash';
+  font-weight: 700;
+  position: relative;
+  color: #000000;
+}
+
+.contact-text {
+  font-size: 16px;
+  position: relative;
+}
+
+.gmap_canvas {
+  position: relative;
+  padding-bottom: 65%;
+  height: 0;
+  overflow: hidden;
+}
+.gmap_canvas iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  width: 100% !important;
+}
 
 .navbar-brand {
   font-size: 24px;
@@ -8364,6 +8396,15 @@ h1, h2, h3, h4, h5,
   display: contents;
 }
 
+.footer-brand {
+  font-size: 30px;
+  font-family: 'Berkshire Swash';
+  font-weight: 700;
+  position: relative;
+  z-index: 0;
+  display: contents;
+  color: #FFF;
+}
 
 .navbar:not(.scrolled) img {
   -webkit-filter: invert(1); 
