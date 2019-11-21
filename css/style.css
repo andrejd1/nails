@@ -8677,6 +8677,7 @@ h3.vr {
   display: block;
   overflow: hidden;
   z-index: 0; }
+  @media (min-width: 991.98px) {
   .project:after {
     position: absolute;
     top: 0;
@@ -8692,6 +8693,7 @@ h3.vr {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+  }
   .project img {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -8744,7 +8746,6 @@ h3.vr {
       letter-spacing: 2px;
       font-size: 24px;
       z-index: 1;
-      color: black;
       font-family: "Barlow Condensed", sans-serif; }
       .project .text h3 a {
         color: #fff; }
@@ -8781,7 +8782,7 @@ h3.vr {
         opacity: 1;
         top: 50px; } }
   .project:hover:after, .project:focus:after {
-    opacity: .8; }
+    opacity: .5; }
   .project:hover .text, .project:focus .text {
     opacity: 1;
     bottom: 0; }
