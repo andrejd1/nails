@@ -95,6 +95,9 @@ AOS.init({
 			stagePadding: 0,
 			nav: false,
 			dots: true,
+			touchDrag: true,
+			pullDrag: false,
+			freeDrag: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive: {
 				0: {
@@ -103,8 +106,11 @@ AOS.init({
 				600: {
 					items: 1
 				},
+				768: {
+					autoHeight: false,
+				},
 				1000: {
-					items: 1
+					items: 1,
 				}
 			}
 		});
