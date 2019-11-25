@@ -9232,6 +9232,9 @@ textarea.form-control {
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
+  .ftco-footer .ftco-footer-widget p {
+    margin-top: 40px;
+  }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
