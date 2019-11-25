@@ -8827,13 +8827,19 @@ h3.vr {
     transition: all 0.3s ease; }
   .pricing-entry p .price {
     font-weight: 900;
-    font-size: 28px;
+    font-size: 24px;
+    overflow-wrap: break-word;
     color: #563b4c;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+  @media (max-width: 519.98px) {
+    .pricing-entry p .price {
+      font-size: 22px;
+    }
+  }
   .pricing-entry p .per {
     font-size: 12px; }
   .pricing-entry ul {
