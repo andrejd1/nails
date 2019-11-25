@@ -26,16 +26,18 @@
     </h3>
     <div class="row justify-content-center">
       <div class="col-md-10 ftco-animate">
-        <form action="#" class="appointment-form">
+        <form action="https://formsubmit.co/ngo.andrej@gmail.com" method="post" class="appointment-form" id="email-form">
           <div class="row">
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" id="appointment_name" placeholder="Name">
+                <input type="text" class="form-control" name="name" id="appointment_name" placeholder="Name">
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+                <input type="email" class="form-control" name="email" id="appointment_email" placeholder="Email Address">
+                <input type="hidden" name="_autoresponse" value="Thank you for contacting us! We will contact you ASAP!">
+                <input type="hidden" name="_replyto">
               </div>
             </div>
             <div class="col-sm-6">
@@ -43,29 +45,30 @@
                 <div class="select-wrap">
                   <div class="icon">
                     <span class="ion-ios-arrow-down"></span></div>
-                  <select name="" id="" class="form-control">
-                    <option value="">Technical Support</option>
-                    <option value="">Business Partnership</option>
-                    <option value="">Legal &amp; Privacy Questions</option>
-                    <option value="">Pricing &amp; Services</option>
-                    <option value="">Just saying hi!</option>
+                  <select name="_subject" class="form-control">
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Business Partnership">Business Partnership</option>
+                    <option value="Legal & Privacy Questions">Legal &amp; Privacy Questions</option>
+                    <option value="Pricing & Services">Pricing &amp; Services</option>
+                    <option value="Just saying hi!">Just saying hi!</option>
                   </select>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" id="phone" placeholder="Phone">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
               </div>
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
             </div>
+            <input type="hidden" name="_captcha" value="false">
           </div>
           <div class="form-group">
-            <input type="submit" value="Send" class="btn btn-primary">
+            <input type="submit" value="Send" id="submit-btn" class="btn btn-primary">
           </div>
         </form>
       </div>

@@ -28,7 +28,6 @@ AOS.init({
 		}
 	};
 
-
 	$(window).stellar({
 		responsive: true,
 		parallaxBackgrounds: true,
