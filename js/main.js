@@ -110,6 +110,7 @@ AOS.init({
 					autoHeight: false,
 				},
 				1000: {
+					autoHeight: false,
 					items: 1,
 				}
 			}
