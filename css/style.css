@@ -9366,6 +9366,16 @@ textarea.form-control {
     -webkit-box-shadow: 0 0 0 0 rgba(191, 146, 91, 0);
     box-shadow: 0 0 0 0 rgba(191, 146, 91, 0); } }
 
+.text-news {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+@media (min-width: 991.98px) {
+  .text-news {
+    font-size: 60px;
+  }
+}
 .heading-section {
   position: relative; }
   .heading-section .subheading {
