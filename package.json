@@ -26,6 +26,7 @@
     "negotiator": "^0.6.2",
     "node-notifier": "^6.0.0",
     "node.extend": "^2.0.2",
+    "open": "^7.0.4",
     "parsejson": "0.0.3",
     "send": "^0.17.1",
     "serve-index": "^1.9.1",
