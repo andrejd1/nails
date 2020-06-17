@@ -17,6 +17,8 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "node-notifier": "^6.0.0"
   }
 }
