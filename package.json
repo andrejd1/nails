@@ -17,8 +17,16 @@
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
+    "fresh": "^0.5.2",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
-    "node-notifier": "^6.0.0"
+    "mime": "^2.4.6",
+    "minimist": "^1.2.5",
+    "negotiator": "^0.6.2",
+    "node-notifier": "^6.0.0",
+    "node.extend": "^2.0.2",
+    "parsejson": "0.0.3",
+    "send": "^0.17.1",
+    "serve-index": "^1.9.1"
   }
 }
