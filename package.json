@@ -24,7 +24,7 @@
     "mime": "^2.4.6",
     "minimist": "^1.2.5",
     "negotiator": "^0.6.2",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "node.extend": "^2.0.2",
     "open": "^7.0.4",
     "parsejson": "0.0.3",
