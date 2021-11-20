@@ -11020,6 +11020,10 @@ h5,
   position: relative;
 }
 
+.contact-text td h6 {
+  margin-right: 10px;
+}
+
 .gmap_canvas {
   position: relative;
   padding-bottom: 65%;
