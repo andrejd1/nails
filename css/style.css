@@ -12279,7 +12279,11 @@ textarea.form-control {
 
 .text-news-small {
   font-size: 14px;
-  color: white;
+  color: white;  
+}
+
+.text-news-small .ul-list-none {
+  list-style-type: none;
 }
 
 @media (min-width: 991.98px) {
