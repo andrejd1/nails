@@ -11886,12 +11886,12 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 7em 0 0 0;
   position: relative;
 }
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 6em 0 0 0;
   }
 }
 
@@ -12086,7 +12086,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #333333;
-  padding: 7em 0;
+  padding: 7em 0 3em 0;
   z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
@@ -12286,6 +12286,17 @@ textarea.form-control {
   list-style-type: none;
 }
 
+.ftco-pricing {
+  padding-bottom: 10px;
+}
+
+.text-pricing {
+  font-size: 14px;
+  border: 2px solid green;
+  padding: 10px 10px 0 10px;
+  border-radius: 4px
+}
+
 @media (min-width: 991.98px) {
   .text-news {
     font-size: 40px;
@@ -12293,6 +12304,15 @@ textarea.form-control {
   .text-news-small {
     font-size: 18px;
     color: white;
+  }
+  .ftco-pricing {
+    padding-bottom: 50px;
+  }
+  .text-pricing {
+    font-size: 18px;
+    border: 2px solid green;
+    padding-top: 10px;
+    border-radius: 4px
   }
   .text-news-info {
     font-size: 25px;
