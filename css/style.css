@@ -10797,7 +10797,7 @@ h5,
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
   padding-left: 20px;
@@ -10980,8 +10980,8 @@ h5,
 }
 
 #logo {
-  width: 120px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
 }
 
 @media (max-width: 1270px) {
@@ -11039,7 +11039,7 @@ h5,
 }
 
 .navbar-brand {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Berkshire Swash';
   font-weight: 700;
   position: relative;
@@ -12294,6 +12294,15 @@ textarea.form-control {
   font-size: 14px;
   border: 2px solid green;
   padding: 10px 10px 0 10px;
+  border-radius: 4px
+}
+
+.text-rules {
+  color: #000000;
+  font-size: 18px;
+  border: 2px solid darkred;
+  padding: 10px 10px 0 10px;
+  margin: 0 15px;
   border-radius: 4px
 }
 
