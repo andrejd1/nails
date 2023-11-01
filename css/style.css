@@ -4158,7 +4158,7 @@ input[type='button'].btn-block {
   margin: 10% auto;
   border: 1px solid #888;
   width: 80%;
-  height: 80%;
+  height: 65%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -10519,7 +10519,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: gray;
+  color: grey;
 }
 body.menu-show {
   overflow: hidden;
@@ -12432,7 +12432,7 @@ textarea.form-control {
   text-transform: uppercase;
 }
 .blog-entry .meta > div a {
-  color: gray;
+  color: grey;
 }
 .blog-entry .meta > div a:hover {
   color: #666666;
@@ -12581,7 +12581,7 @@ textarea.form-control {
   margin-right: 5px;
 }
 .block-21 .text .meta > div a {
-  color: gray;
+  color: grey;
 }
 
 /* Blog*/
