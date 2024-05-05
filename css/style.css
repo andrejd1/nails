@@ -11327,6 +11327,17 @@ h3.vr {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
+@media (max-width: 519.98px) {
+  .pricing-entry-note {
+    font-size: 10px;
+  }
+}
+
+.pricing-entry-note {
+  font-size: 12px;
+  margin: 0 4px;
+}
 @media (max-width: 767.98px) {
   .pricing-entry {
     margin-bottom: 2em;
