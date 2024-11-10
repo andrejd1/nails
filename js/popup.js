@@ -3,11 +3,17 @@ const close = modal.getElementsByClassName('close')[0];
 
 // When the user clicks the button, open the modal.
 window.onload = function() {
-  // Check if the modal has already been displayed during this session
-  if (!sessionStorage.getItem('modalDisplayed')) {
-    modal.style.display = 'block';
-    // Set the modalDisplayed item in the sessionStorage
-    sessionStorage.setItem('modalDisplayed', 'true');
+  const currentDate = new Date();
+  const targetDate = new Date('2024-11-21T23:59:59'); // Set the target date to November 21st, 2023
+
+  // Check if the current date is before the target date
+  if (currentDate <= targetDate) {
+    // Check if the modal has already been displayed during this session
+    if (!sessionStorage.getItem('modalDisplayed')) {
+      modal.style.display = 'block';
+      // Set the modalDisplayed item in the sessionStorage
+      sessionStorage.setItem('modalDisplayed', 'true');
+    }
   }
 };
 
