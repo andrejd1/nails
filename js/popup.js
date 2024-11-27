@@ -4,7 +4,7 @@ const close = modal.getElementsByClassName('close')[0];
 // When the user clicks the button, open the modal.
 window.onload = function() {
   const currentDate = new Date();
-  const targetDate = new Date('2024-11-21T23:59:59'); // Set the target date to November 21st, 2023
+  const targetDate = new Date('2024-12-31T23:59:59'); // Set the target date to November 21st, 2023
 
   // Check if the current date is before the target date
   if (currentDate <= targetDate) {
