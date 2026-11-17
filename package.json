@@ -9,31 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2",
-    "gulp-nunjucks": "^5.0.1",
-    "gulp-nunjucks-render": "^2.2.3",
-    "gulp-server-livereload": "^1.9.2",
-    "run-sequence": "^2.2.1"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "engine.io-client": "^3.4.3",
-    "fresh": "^0.5.2",
-    "lodash": "^4.17.21",
-    "lodash.template": "^4.5.0",
-    "mime": "^2.4.6",
-    "minimist": "^1.2.5",
-    "negotiator": "^0.6.2",
-    "node-notifier": "^9.0.0",
-    "node.extend": "^2.0.2",
-    "open": "^7.0.4",
-    "parsejson": "0.0.3",
-    "send": "^0.17.1",
-    "serve-index": "^1.9.1",
-    "serve-static": "^1.7.2",
-    "socket.io": "^2.4.1",
-    "socket.io-client": "^2.3.0",
-    "yargs-parser": "^20.2.6"
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3"
   }
 }
